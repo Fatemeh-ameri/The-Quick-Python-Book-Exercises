@@ -2,13 +2,6 @@
 [0]; []; [[1, 3, [4, 5], 6], 7]?"""
 
 
-
-
-
-
-from traceback import print_tb
-
-
 x= [0]
 print(len(x))
 
