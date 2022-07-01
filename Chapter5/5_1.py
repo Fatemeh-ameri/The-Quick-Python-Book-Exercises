@@ -1,4 +1,4 @@
-"""What would len() return for each of the following:
+"""QUICK CHECK: LEN() What would len() return for each of the following:
 [0]; []; [[1, 3, [4, 5], 6], 7]?"""
 
 
