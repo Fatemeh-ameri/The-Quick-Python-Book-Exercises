@@ -7,7 +7,6 @@ What code could you use to find the position of the last p in Mississippi?
 When you’ve found that position, what code would you use to remove just
 that letter?"""
 
-import re
 x = ['"abc"', 'def', '"ghi"', '"klm"', 'nop']
 for i in range(len(x)):
     if '"' in x[i]:
