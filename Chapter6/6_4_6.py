@@ -5,7 +5,6 @@ import string
 
 
 x = "I am fateme, I am 26 years old! Am I married? yes."
-punc = string.punctuation
 x2 = x.maketrans(string.punctuation, " " *len(string.punctuation))
 x3 = x.translate(x2)
 
