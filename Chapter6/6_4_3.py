@@ -7,7 +7,11 @@ x.strip("\n)(,")"""
 x = "(name, date),\n"
 
 print(x.rstrip("),"))
+#output:(name, date),
+
 
 print(x.strip("),\n"))
+#output:(name, date
 
 print(x.strip("\n)(,"))
+#output:name, date
