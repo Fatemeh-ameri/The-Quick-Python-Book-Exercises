@@ -17,3 +17,4 @@ with open("moby_01.txt") as infile, open("moby_01_clean.txt", "w") as outfile:
         line = "\n".join(line)
         print(line)
         outfile.write(line)
+        
