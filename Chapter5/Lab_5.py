@@ -34,7 +34,7 @@ print(x)
 
 y = len(x)
 print(y)
-
+#output: 828
 z = (temperatures[y//2] + temperatures[(y//2)+1]) // 2
 print(z)
 #Med: 22.0
