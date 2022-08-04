@@ -14,7 +14,8 @@ print(x)
 if x.count(2)>1 : 
     while 2 in x :
         x.remove(2)
-print(x)        
+print(x)  
+#output: [3, 4, 5]      
 
 
     
