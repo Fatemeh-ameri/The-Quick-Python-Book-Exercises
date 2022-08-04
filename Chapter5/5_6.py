@@ -6,12 +6,15 @@ changing the contents of x?"""
 import copy
 
 x = [[1, 2,3], [4, 5, 6], [7, 8, 9]]
-y = x[:]
 deep = copy.deepcopy(x)
-
 deep[0][0] = 0
 print(deep)
 #output: [[0, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 print(x)
 #output: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+"""y = x[:]
+y[0][0] = 0
+print(y)
+#output: [[0, 2, 3], [4, 5, 6], [7, 8, 9]]"""
