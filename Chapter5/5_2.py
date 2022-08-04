@@ -5,4 +5,5 @@ to confirm that your solution works."""
 
 x =[1,2,4,5,6,7,8]
 print(x[len(x)//2:])
+#output: [5, 6, 7, 8]
 
