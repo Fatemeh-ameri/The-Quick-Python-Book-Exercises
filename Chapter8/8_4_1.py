@@ -11,12 +11,12 @@ x_remove = [ x.remove(i) for i in x if i < 0]
 print(x)"""
 #output: [1, 3, 5, 0, 3]
 
-for i in range(1,101):
+"""for i in range(1,101):
     if i % 2 != 0:
-        print(i)
+        print(i)"""
 #output: 1 3 5 7
 
-"""cubs = {i: i*i for i in range(11,16)}
-print(cubs)"""
-#output: {11: 121, 12: 144, 13: 169, 14: 196, 15: 225}
+cubs = {i: i**3 for i in range(11,16)}
+print(cubs)
+#output: {11: 1331, 12: 1728, 13: 2197, 14: 2744, 15: 3375}
 
