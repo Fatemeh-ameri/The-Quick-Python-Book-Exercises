@@ -12,7 +12,7 @@ print(x)
 
 x = "{0:$>5}".format(345)
 print(x)
-#output: $$$$3
+#output:$$345
 
 x = "{a:{b}}".format(a=1, b=5)
 print(x)
