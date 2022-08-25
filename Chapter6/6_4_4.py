@@ -7,3 +7,9 @@ x = "she is rejected"
 print(x.endswith("rejected"))
 #output: True
 
+if x[-8:] == 'rejected':
+    print(True)
+else:
+    print(False)   
+#output: True     
+
