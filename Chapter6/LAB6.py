@@ -18,7 +18,6 @@ outfile.write(cleaned_words)"""
 
 
 import re
-import string
 
 with open("moby_01.txt") as infile, open("moby_01_clean.txt", "w") as outfile:
     for line in infile:
@@ -27,15 +26,15 @@ with open("moby_01.txt") as infile, open("moby_01_clean.txt", "w") as outfile:
 
         # remove punctuation
         line = re.sub(r'[^\w\s]', ' ', line)
-        #line1 = line.translate(str.maketrans('', '', string.punctuation))
 
         # split into words
         line = line.split()
 
         # write all words for line
-        line = "\n".join(line)
-        print(line)
-        outfile.write(line)
+        if len(line) > 0:
+            line = "\n".join(line)
+            print(line)
+            outfile.write(line)
 
 """call
 me
