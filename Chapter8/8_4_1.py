@@ -6,15 +6,15 @@ remainder of division by 2.)
 Write the code to create a dictionary of the numbers and their cubes from 11
 through 15."""
 
-"""x = [1, 3, 5, 0, -1, 3, -2]
-x_remove = [ x.remove(i) for i in x if i < 0]
-print(x)"""
-#output: [1, 3, 5, 0, 3]
+x = [1, 3, 5, 0, -1, -3, -2]
+x_remove = [i for i in x if i >= 0]
+print(x_remove)
+#output: [1, 3, 5, 0]
 
-"""for i in range(1,101):
-    if i % 2 != 0:
-        print(i)"""
-#output: 1 3 5 7
+odd = ( i for i in range(1,101) if i % 2 !=0)
+for i in odd:
+    print(i,)
+#output: 1 3 5 7 ... 
 
 cubs = {i: i**3 for i in range(11,16)}
 print(cubs)
